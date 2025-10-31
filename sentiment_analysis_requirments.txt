@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+nltk
+wordcloud
+matplotlib
+streamlit
+click
+tqdm
