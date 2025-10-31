@@ -1,0 +1,64 @@
+# -------------------------------
+# Python cache & virtual env
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.env
+.venv
+env/
+venv/
+*.log
+
+# -------------------------------
+# Jupyter / IPython
+# -------------------------------
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+*.ipynb_checkpoints/*
+
+# -------------------------------
+# Streamlit
+# -------------------------------
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# -------------------------------
+# Model & Data files
+# -------------------------------
+*.pkl
+*.sav
+*.h5
+*.joblib
+*.pt
+*.csv
+*.xlsx
+*.json
+*.zip
+*.tar.gz
+*.npy
+*.npz
+*.pytorch
+*.model
+
+# -------------------------------
+# OS / Editor Files
+# -------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.bak
+*.tmp
+
+# -------------------------------
+# Deployment / Build
+# -------------------------------
+dist/
+build/
+__pycache__/
+*.spec
